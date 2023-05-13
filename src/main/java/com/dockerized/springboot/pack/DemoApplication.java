@@ -12,7 +12,7 @@ public class DemoApplication {
 	@GetMapping("/dockerized")
 	public String dockerizedMessage()
 	{
-		return "This is a dockerized spring boot application";
+		return "This is a dockerized spring boot application in azure";
 	}
 
 	public static void main(String[] args) {
