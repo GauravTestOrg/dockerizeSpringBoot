@@ -6,4 +6,4 @@ EXPOSE 8080
 
 ADD . /target/dockerizeSpringBoot-0.0.1-SNAPSHOT.jar
 
-CMD ["java","-jar","/dockerizeSpringBoot-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","/target/dockerizeSpringBoot-0.0.1-SNAPSHOT.jar"]
