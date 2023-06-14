@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
-	@GetMapping("/dockerized")
+	@GetMapping("/dockerize")
 	public String dockerizedMessage()
 	{
 		return "This is a dockerized spring boot application";
