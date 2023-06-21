@@ -36,4 +36,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: testcontainerregistryonce.azurecr.io/dockerizespringboot:${{ github.sha }}
+          tags: testcontainerregistryonce.azurecr.io/dockerizespringboot:latest
