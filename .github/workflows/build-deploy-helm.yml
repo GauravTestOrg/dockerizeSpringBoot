@@ -7,7 +7,7 @@
 #   - https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal
 #   - https://learn.microsoft.com/en-us/azure/aks/cluster-container-registry-integration?tabs=azure-cli#configure-acr-integration-for-existing-aks-clusters
 #   - https://github.com/Azure/aks-create-action
-#
+# y
 # To configure this workflow:
 #
 # 1. Set the following secrets in your repository (instructions for getting these
