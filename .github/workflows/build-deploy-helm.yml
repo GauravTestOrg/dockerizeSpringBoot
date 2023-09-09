@@ -44,8 +44,8 @@ env:
   CONTAINER_NAME: "dockerizespringboot"
   RESOURCE_GROUP: "aks-rg"
   CLUSTER_NAME: "aks-cluster"
-  CHART_PATH: “app”
-  CHART_OVERRIDE_PATH: “app”
+  CHART_PATH: “dockerizeSpringBoot/config/helm/”
+  CHART_OVERRIDE_PATH: “dockerizeSpringBoot/config/helm/”
 
 jobs:
   buildImage:
