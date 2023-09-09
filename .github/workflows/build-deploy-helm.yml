@@ -61,9 +61,7 @@ jobs:
       - name: Azure login
         uses: azure/login@v1.4.6
         with:
-          client-id: 6088ad13-8c84-4afa-ba9d-0455dc4d521a
-          tenant-id: 3febe3c5-f79f-4b86-9aef-5de5d5cea9e2
-          subscription-id: 35650609-3299-4b4f-8387-38131b191c63
+         creds: '{"clientId":"12bf5db8-d030-4503-a730-feae4d202c6d","clientSecret":"4Bp8Q~cDFcf_k1Ysf9ekVbi6u.gqCSWkR0irecy8","subscriptionId":"35650609-3299-4b4f-8387-38131b191c63","tenantId":"3febe3c5-f79f-4b86-9aef-5de5d5cea9e2"}'
 
       # Builds and pushes an image up to your Azure Container Registry
       - name: Build and push image to ACR
@@ -85,9 +83,7 @@ jobs:
       - name: Azure login
         uses: azure/login@v1.4.6
         with:
-         client-id: 6088ad13-8c84-4afa-ba9d-0455dc4d521a
-         tenant-id: 3febe3c5-f79f-4b86-9aef-5de5d5cea9e2
-         subscription-id: 35650609-3299-4b4f-8387-38131b191c63
+         creds: '{"clientId":"12bf5db8-d030-4503-a730-feae4d202c6d","clientSecret":"4Bp8Q~cDFcf_k1Ysf9ekVbi6u.gqCSWkR0irecy8","subscriptionId":"35650609-3299-4b4f-8387-38131b191c63","tenantId":"3febe3c5-f79f-4b86-9aef-5de5d5cea9e2"}'
 
       # Use kubelogin to configure your kubeconfig for Azure auth
       - name: Set up kubelogin for non-interactive login
