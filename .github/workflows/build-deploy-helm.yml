@@ -44,8 +44,8 @@ env:
   CONTAINER_NAME: "dockerizespringboot"
   RESOURCE_GROUP: "aks-rg"
   CLUSTER_NAME: "aks-cluster"
-  CHART_PATH: “/”
-  CHART_OVERRIDE_PATH: “/”
+  CHART_PATH: “config/helm/values.yaml”
+  CHART_OVERRIDE_PATH: “config/helm/values.yaml”
 
 jobs:
   buildImage:
