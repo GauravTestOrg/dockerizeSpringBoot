@@ -44,8 +44,8 @@ env:
   CONTAINER_NAME: "dockerizespringboot"
   RESOURCE_GROUP: "aks-rg"
   CLUSTER_NAME: "aks-cluster"
-  CHART_PATH: “mychart/”
-  CHART_OVERRIDE_PATH: “mychart/”
+  CHART_PATH: “mychart”
+  CHART_OVERRIDE_PATH: “mychart”
 
 jobs:
   buildImage:
